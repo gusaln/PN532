@@ -1,22 +1,29 @@
 {
-    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
-    "name": "PN532",
-    "description": "This is a library for the PN532 to use NFC technology.",
-    "keywords": "communication,nfc,pn532",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/gusaln/PN532.git"
-    },
-    "frameworks": "*",
-    "platforms": "*",
-    "dependencies": [
-        {
-            "name": "NDEF",
-            "version": "https://github.com/don/NDEF#1.1.0"
-        }
-    ],
-    "build": {
-        "srcDir": "."
+  "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+  "name": "PN532",
+  "description": "This is a library for the PN532 to use NFC technology.",
+  "keywords": "communication,nfc,pn532",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gusaln/PN532.git"
+  },
+  "authors": [
+    {
+      "name": "Gustavo Lopez",
+      "email": "git.gustavolopez.xyz@gmail.com",
+      "maintainer": true
     }
+  ],
+  "frameworks": "*",
+  "platforms": "*",
+  "dependencies": [
+    {
+      "name": "NDEF",
+      "version": "https://github.com/don/NDEF#1.1.0"
+    }
+  ],
+  "build": {
+    "srcDir": "."
+  }
 }
