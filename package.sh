@@ -5,4 +5,5 @@ mkdir out &> /dev/null
 for lib in $LIBS; do
     echo "Packaging $lib"
     zip out/$lib $lib/*
+    tar -czf out/$lib.tar.gz $lib/*
 done
