@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "PN532_SPI",
+    "description": "This is a library for the PN532 to use NFC technology through SPI.",
+    "keywords": "communication,nfc,pn532,pn532_spi,spi",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gusaln/PN532.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "dependencies": [],
+    "build": {
+        "srcDir": "."
+    }
+}
